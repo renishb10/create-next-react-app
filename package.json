@@ -1,0 +1,24 @@
+{
+  "name": "create-next-react-app",
+  "version": "1.0.0",
+  "description": "create-next-react-app is the boilerplate code for starting up ReactJS-NextJS app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "reactjs",
+    "nodejs"
+  ],
+  "author": "Renish Bhaskaran",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}

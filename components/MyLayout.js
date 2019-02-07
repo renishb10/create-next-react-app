@@ -10,6 +10,7 @@ const MyLayout = (props) => {
   return (
     <div style={layoutStyle}>
       <Header />
+      { props.children }
     </div>
   )
 }

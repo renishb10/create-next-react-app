@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const Index = (props) => (
   <Layout>
-    <h1>Batman TV Shows</h1>
+    <h1>Popeye TV Shows</h1>
     <ul>
       {props.shows.map(({show}) => (
         <li key={show.id}>
@@ -19,7 +19,7 @@ const Index = (props) => (
 
 Index.getInitialProps = async function() {
   let showData = [];
-  await axios.get('https://api.tvmaze.com/search/shows?q=batman')
+  await axios.get('https://api.tvmaze.com/search/shows?q=superman')
     .then(response => {
       console.log(`Show data fetched. Count: ${response.data.length}`);
       showData = response.data;

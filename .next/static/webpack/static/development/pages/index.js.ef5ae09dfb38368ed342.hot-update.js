@@ -30,7 +30,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
 
 var Index = function Index(props) {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_3__["default"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "Batman TV Shows"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, props.shows.map(function (_ref) {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_3__["default"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "Popeye TV Shows"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, props.shows.map(function (_ref) {
     var show = _ref.show;
     return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
       key: show.id
@@ -53,7 +53,7 @@ _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function 
         case 0:
           showData = [];
           _context.next = 3;
-          return axios__WEBPACK_IMPORTED_MODULE_4___default.a.get('https://api.tvmaze.com/search/shows?q=batman').then(function (response) {
+          return axios__WEBPACK_IMPORTED_MODULE_4___default.a.get('https://api.tvmaze.com/search/shows?q=superman').then(function (response) {
             console.log("Show data fetched. Count: ".concat(response.data.length));
             showData = response.data;
           }).catch(function (err) {
@@ -96,4 +96,4 @@ _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function 
 /***/ })
 
 })
-//# sourceMappingURL=index.js.a819b181a543e717a13a.hot-update.js.map
+//# sourceMappingURL=index.js.ef5ae09dfb38368ed342.hot-update.js.map
